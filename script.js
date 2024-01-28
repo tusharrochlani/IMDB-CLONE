@@ -6,7 +6,7 @@ const key = 'a0dd635d';
 var searchInput = document.getElementById("input");
 var displaySearchList = document.getElementsByClassName('fav-container');
 
-fetch('http://www.omdbapi.com/?i=tt3896198&apikey=a0dd635d')
+fetch('https://www.omdbapi.com/?i=tt3896198&apikey=a0dd635d')
 .then(Response => Response.json())
 .then(data => console.log(data));
 

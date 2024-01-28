@@ -177,7 +177,7 @@ function displaySearchMovieList(movies) {
 
 // Function to find movies as per the user's search input
 async function findMovies() {
-    const url = `http://www.omdbapi.com/?s=${searchInput.value.trim()}&apikey=${key}`;
+    const url = `https://www.omdbapi.com/?s=${searchInput.value.trim()}&apikey=${key}`;
 
     try {
         // Making an asynchronous request to the OMDb API using fetch

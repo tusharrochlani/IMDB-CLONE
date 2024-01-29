@@ -159,7 +159,7 @@ function displaySearchMovieList(movies) {
                     <p class="fav-movie-rating"><a href="movie.html?id=${id}">${i.Year}</a></p>
                 </div>
                 <div>
-                    <i class="fa-solid fa-bookmark" style="cursor:pointer;" onClick=addTofavorites('${id}')></i>
+                    <i class="fa-solid fa-bookmark" style="cursor:pointer;" onClick=addToFavorites('${id}')></i>
                 </div>
             </div>
         </div>
